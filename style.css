@@ -111,7 +111,6 @@ main {
   margin-bottom: 16px;
 }
 
-/* PC: text left, large media sticky on the right */
 @media (min-width: 900px) {
   .card.has-media {
     display: grid;
@@ -269,7 +268,6 @@ footer {
   padding-top: 24px;
 }
 
-/* Media panel — large on PC */
 .media-area {
   margin: 16px 0 0;
   background: #110d0e;
@@ -362,7 +360,6 @@ footer {
   word-break: break-word;
 }
 
-/* BPM metronome display */
 .bpm-wrap {
   text-align: center;
   margin: 12px 0 8px;
@@ -397,18 +394,11 @@ footer {
 }
 
 @keyframes bpmPulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.06);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
 }
 
-/* Settings overlay */
 .overlay {
   position: fixed;
   inset: 0;
@@ -479,31 +469,12 @@ hr {
   margin: 20px 0;
 }
 
-/* Mobile */
 @media (max-width: 700px) {
-  #app {
-    padding: 16px;
-  }
-
-  .card {
-    padding: 20px 16px;
-  }
-
-  .btn-row {
-    flex-direction: column;
-  }
-
-  .timer {
-    font-size: 2.8rem;
-  }
-
+  #app { padding: 16px; }
+  .card { padding: 20px 16px; }
+  .btn-row { flex-direction: column; }
+  .timer { font-size: 2.8rem; }
   .media-area img,
-  .media-area video {
-    max-height: 55vh;
-  }
-
-  .fluid-player-wrap {
-    max-height: 55vh;
-    min-height: 200px;
-  }
+  .media-area video { max-height: 55vh; }
+  .fluid-player-wrap { max-height: 55vh; min-height: 200px; }
 }
