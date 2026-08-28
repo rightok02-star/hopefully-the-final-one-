@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Corruption Protocol</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
 </head>
 <body>
   <div id="app">
@@ -29,6 +30,13 @@
     <div class="settings-panel">
       <h2>Settings</h2>
       <label class="setting-row"><span>Show media panel</span><input type="checkbox" id="setMedia" checked></label>
+      <label class="setting-row"><span>Sound effects</span><input type="checkbox" id="setSfx" checked></label>
+      <label class="setting-row"><span>Ambient drone</span><input type="checkbox" id="setAmbient" checked></label>
+      <label class="setting-row"><span>Stroke metronome (BPM)</span><input type="checkbox" id="setMetronome" checked></label>
+      <label class="setting-row">
+        <span>Volume</span>
+        <input type="range" id="setVolume" min="0" max="100" value="35">
+      </label>
       <label class="setting-row">
         <span>Timer scale</span>
         <select id="setTimerScale">
@@ -59,8 +67,8 @@
       </label>
 
       <hr>
-      <h3>Image grabber (Rule34)</h3>
-      <p class="hint">Account → Options on rule34.xxx. Paste key here only — never commit it to GitHub.</p>
+      <h3>Rule34 API</h3>
+      <p class="hint">Account → Options on rule34.xxx. Keep the key in Settings only — never commit it to GitHub.</p>
       <input type="text" id="r34UserId" placeholder="Rule34 User ID" autocomplete="off">
       <input type="password" id="r34ApiKey" placeholder="Rule34 API Key" autocomplete="off">
 
@@ -69,9 +77,8 @@
       <input type="text" id="customName" placeholder="Full name">
       <input type="text" id="customShort" placeholder="Short name">
       <input type="text" id="customIronic" placeholder="Ironic instruction">
-      <input type="text" id="customSearch" placeholder="Rule34 tags (e.g. dirty_feet soles)">
+      <input type="text" id="customSearch" placeholder="ONE Rule34 tag (e.g. feet)">
       <button id="addCustomBtn" type="button">Add Fetish</button>
-      <p class="hint">Customs save in this browser.</p>
       <button id="closeSettings" class="secondary" type="button">Save &amp; Close</button>
     </div>
   </div>
