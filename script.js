@@ -1,29 +1,41 @@
 const DEFAULT_FETISHES = [
-  { id: 1, name: "Bare dirty soles and feet", short: "dirty feet", ironic: "Keep your own bare feet on the cold floor the entire time.", search: "dirty_feet soles" },
-  { id: 2, name: "Soft, heavy belly rolls", short: "belly rolls", ironic: "Poke and squeeze your own stomach while you stare.", search: "belly rolls chubby" },
-  { id: 3, name: "Thick, hairy armpits", short: "hairy armpits", ironic: "Keep one of your own armpits exposed and unwashed for the session.", search: "armpit hairy" },
-  { id: 4, name: "Long spit and drool trails", short: "spit & drool", ironic: "Let real spit run down your chin whenever instructed.", search: "spit drool" },
-  { id: 5, name: "Underwear waistbands stretched tight into fat", short: "stretched waistbands", ironic: "Wear underwear one size too small for the rest of the day.", search: "tight_clothes belly" },
-  { id: 6, name: "Double chin and soft folded neck", short: "double chin", ironic: "Keep your chin pressed down against your neck while staring.", search: "double_chin chubby" },
-  { id: 7, name: "Veiny hands and thick forearms", short: "veiny hands", ironic: "Flex your own hands and forearms until the veins pop.", search: "veins hands" },
-  { id: 8, name: "Fresh sweaty socks", short: "sweaty socks", ironic: "Wear the same socks all day after the session.", search: "socks sweaty feet" },
-  { id: 9, name: "Large soft ass with deep panty lines", short: "soft ass & panty lines", ironic: "Sit on your hands so you feel your own ass the whole time.", search: "ass panties" },
-  { id: 10, name: "Dense body hair (chest + stomach)", short: "body hair", ironic: "Run your fingers through your own body hair while looking.", search: "body_hair chest_hair" },
-  { id: 11, name: "Messy cum-covered face", short: "cum face", ironic: "Rub any precum or spit on your own face at the end.", search: "cum_on_face facial" },
-  { id: 12, name: "Clothes cutting tightly into soft flesh", short: "tight cutting clothes", ironic: "Put on something deliberately too tight before starting.", search: "tight_clothes chubby" },
-  { id: 13, name: "Heavy armpit sweat stains", short: "sweat stains", ironic: "Don’t use deodorant today.", search: "armpit sweat" },
-  { id: 14, name: "Chubby fingers and soft palms", short: "chubby fingers", ironic: "Suck on your own fingers during the pure stares.", search: "chubby hands" },
-  { id: 15, name: "Thick thighs rubbing together", short: "thick thighs", ironic: "Keep your thighs pressed tightly together the entire session.", search: "thick_thighs" },
-  { id: 16, name: "Open-mouth dumb panting face", short: "dumb panting face", ironic: "Keep your own mouth open and breathing heavily while you stare.", search: "ahegao open_mouth" },
-  { id: 17, name: "Used, stained, smelly panties", short: "stained panties", ironic: "Sniff your own underwear before and after.", search: "panties used" },
-  { id: 18, name: "Fat folds spread and inspected", short: "spread fat folds", ironic: "Spread and inspect one of your own soft folds while looking.", search: "belly folds chubby" },
-  { id: 19, name: "Soft male chest / moobs", short: "soft moobs", ironic: "Squeeze your own chest whenever the timer hits zero.", search: "pecs male" },
-  { id: 20, name: "Blank drooling vacant expression", short: "vacant drooling face", ironic: "Let your face go completely slack and drool for real.", search: "drool ahegao" },
-  { id: 21, name: "Soft belly hanging out of clothes", short: "hanging belly", ironic: "Pull your shirt up and leave your own belly exposed.", search: "belly hanging chubby" },
-  { id: 22, name: "Hairy legs in short shorts", short: "hairy legs", ironic: "Wear the shortest shorts you own for the contamination period.", search: "hairy_legs" },
-  { id: 23, name: "Wet spit-slick skin", short: "spit-slick skin", ironic: "Spit on your own chest or thighs and leave it.", search: "spit body" },
-  { id: 24, name: "Hands sinking deep into fat", short: "hands in fat", ironic: "Dig your own hands into any soft part of your body.", search: "grabbing_belly chubby" },
-  { id: 25, name: "Full sensory focus (look + smell + imagined taste)", short: "full sensory", ironic: "Inhale deeply through your nose every time you look.", search: "close-up fetish" }
+  // --- Tame / mild ---
+  { id: 1, name: "Bare feet and soft soles", short: "bare feet", ironic: "Keep your own bare feet on the floor the whole time.", search: "feet soles barefoot foot_focus" },
+  { id: 2, name: "Thighs in shorts", short: "thighs", ironic: "Keep your thighs pressed together while you stare.", search: "thighs thick_thighs shorts" },
+  { id: 3, name: "Soft belly under a shirt", short: "soft belly", ironic: "Rest a hand on your own stomach while looking.", search: "belly navel midriff" },
+  { id: 4, name: "Armpits on display", short: "armpits", ironic: "Keep one arm raised for a while after the session.", search: "armpits arms_up" },
+  { id: 5, name: "Socks and ankles", short: "socks", ironic: "Wear the same socks the rest of the day.", search: "socks ankle_socks feet" },
+  { id: 6, name: "Lips and tongue out", short: "tongue out", ironic: "Keep your mouth slightly open while staring.", search: "tongue_out saliva open_mouth" },
+  { id: 7, name: "Hands and fingers close-up", short: "hands", ironic: "Flex and stare at your own hands between looks.", search: "hands fingers close-up" },
+  { id: 8, name: "Hair down the body", short: "body hair", ironic: "Run fingers over any body hair you have while looking.", search: "body_hair armpit_hair" },
+
+  // --- Medium ---
+  { id: 9, name: "Sweaty skin shine", short: "sweat", ironic: "Don’t towel off after the session.", search: "sweat sweaty glistening" },
+  { id: 10, name: "Drool and spit strings", short: "drool", ironic: "Let real spit sit on your lip when told.", search: "saliva drool spit tongue_out" },
+  { id: 11, name: "Panties and waistband dig", short: "panties", ironic: "Notice every waistband line on yourself today.", search: "panties cameltoe ass" },
+  { id: 12, name: "Ass focus, soft and full", short: "ass focus", ironic: "Sit fully on your own heels or hands for a minute.", search: "ass butt from_behind" },
+  { id: 13, name: "Chubby / soft body folds", short: "soft folds", ironic: "Squeeze one soft place on yourself while staring.", search: "chubby plump belly rolls" },
+  { id: 14, name: "Stockings and pantyhose", short: "stockings", ironic: "Wear something snug on your legs if you can.", search: "stockings pantyhose legs" },
+  { id: 15, name: "Open-mouth dumb face", short: "ahegao face", ironic: "Let your face go slack and breathe through your mouth.", search: "ahegao open_mouth saliva" },
+  { id: 16, name: "Breasts pressed and soft", short: "soft chest", ironic: "Press your arms against your chest when the timer hits zero.", search: "breasts cleavage paizuri" },
+  { id: 17, name: "Foot in face / POV soles", short: "soles POV", ironic: "Imagine soles filling your vision and don’t look away.", search: "foot_focus soles pov feet" },
+  { id: 18, name: "Used / worn look on clothes", short: "worn clothes", ironic: "Sniff a piece of your own laundry once before bed.", search: "panties clothes_lift disheveled" },
+
+  // --- Heavy ---
+  { id: 19, name: "Cum on face / messy finish", short: "cum face", ironic: "At the end, smear spit on your own cheek once.", search: "cum_on_face facial cum" },
+  { id: 20, name: "Public risk fantasy stills", short: "public tease", ironic: "Notice how hard it is to keep a straight face in public later.", search: "public exhibition outdoor" },
+  { id: 21, name: "Bondage marks and restraint", short: "restraint", ironic: "Keep wrists crossed behind you for one full timer.", search: "bondage bound restrained" },
+  { id: 22, name: "Pet play collar stare", short: "collar", ironic: "Kneel for thirty seconds after a pure stare.", search: "collar pet_play leash" },
+  { id: 23, name: "Mind-break expression", short: "mind break", ironic: "Repeat out loud once: this is wiring into me.", search: "ahegao fucked_silly rolling_eyes" },
+  { id: 24, name: "Heavy sweat and exhaustion", short: "exhausted sweat", ironic: "Do not shower until an hour after the session.", search: "sweat after_sex exhausted" },
+
+  // --- Extreme (still common on Rule34) ---
+  { id: 25, name: "Tentacle overwhelm", short: "tentacles", ironic: "Imagine being held still with nowhere to look but the trigger.", search: "tentacles tentacle_sex restrained" },
+  { id: 26, name: "Inflation / overfull body", short: "inflation", ironic: "Poke your stomach and hold the thought of being too full.", search: "inflation belly expansion" },
+  { id: 27, name: "Monster / non-human partner", short: "monster", ironic: "Admit out loud that the image is allowed to own your reaction.", search: "monster monster_girl bestiality" },
+  { id: 28, name: "All the way through / extreme insertion art", short: "extreme insertion", ironic: "Hands off during pure stare — only looking.", search: "all_the_way_through insertion" },
+  { id: 29, name: "Gang focus / surrounded", short: "surrounded", ironic: "Picture being the only focus in a crowd of attention.", search: "group sex multiple_boys" },
+  { id: 30, name: "Hypnosis swirl mindfuck", short: "hypnosis", ironic: "Stare until your thoughts thin out. No touching on pure tests.", search: "hypnosis spiral mind_control" }
 ];
 
 const METER_LABELS = [
@@ -63,6 +75,7 @@ function load() {
     const s = localStorage.getItem("corruptionSettings");
     if (s) settings = { ...settings, ...JSON.parse(s) };
   } catch (e) {}
+  if (!settings.r34UserId) settings.r34UserId = "6721033";
   updateMeter();
   applySettingsUI();
 }
@@ -117,7 +130,7 @@ async function grabRule34Image(fetish) {
   const userId = (settings.r34UserId || "").trim();
   const apiKey = (settings.r34ApiKey || "").trim();
   if (!userId || !apiKey) {
-    throw new Error("Open ⚙ Settings and enter both Rule34 User ID and API Key.");
+    throw new Error("Open ⚙ Settings and enter both Rule34 User ID and API Key, then Save & Close.");
   }
 
   const tags = fetishToTags(fetish);
@@ -138,14 +151,12 @@ async function grabRule34Image(fetish) {
     throw new Error("Rule34 returned non-JSON. Check API key / User ID.");
   }
 
-  if (data && data.message) {
-    throw new Error(String(data.message));
-  }
+  if (data && data.message) throw new Error(String(data.message));
   if (typeof data === "string" && /missing authentication/i.test(data)) {
     throw new Error("Missing authentication — API Key is wrong or empty.");
   }
   if (!Array.isArray(data) || data.length === 0) {
-    throw new Error("No results for: " + tags + " — try different search tags in Settings / custom fetish.");
+    throw new Error("No results for tags: " + tags);
   }
 
   const pool = data
@@ -157,23 +168,27 @@ async function grabRule34Image(fetish) {
 }
 
 function createMediaArea(fetish) {
-  if (!settings.showMedia) return document.createElement("div");
+  if (settings.showMedia === false) return document.createElement("div");
 
   const wrap = document.createElement("div");
   wrap.className = "media-area";
 
   const tabs = document.createElement("div");
   tabs.className = "media-tabs";
+
   const imgTab = document.createElement("button");
   imgTab.type = "button";
   imgTab.textContent = "Image";
+
   const vidTab = document.createElement("button");
   vidTab.type = "button";
   vidTab.textContent = "Video";
+
   tabs.appendChild(imgTab);
   tabs.appendChild(vidTab);
 
   const stage = document.createElement("div");
+
   const controls = document.createElement("div");
   controls.className = "media-controls";
 
@@ -208,8 +223,8 @@ function createMediaArea(fetish) {
   const status = document.createElement("p");
   status.className = "media-hint";
   status.textContent = (settings.r34ApiKey || "").trim()
-    ? "Grab = random Rule34 image for this fetish’s tags."
-    : "Set Rule34 API Key in ⚙ (User ID can stay 6721033).";
+    ? "Tags: " + fetishToTags(fetish) + " — Grab image for a random hit."
+    : "⚙ → paste API Key → Save & Close, then Grab image.";
 
   controls.appendChild(urlInput);
   controls.appendChild(row);
@@ -231,9 +246,7 @@ function createMediaArea(fetish) {
         img.alt = fetish.short || "trigger";
         img.src = mediaMemory.imageUrl;
         img.referrerPolicy = "no-referrer";
-        img.onerror = () => {
-          status.textContent = "Image blocked or dead link — Grab again.";
-        };
+        img.onerror = () => { status.textContent = "Image failed — Grab again."; };
         stage.appendChild(img);
       }
     } else if (mediaMemory.videoUrl) {
@@ -342,8 +355,7 @@ function showWelcome() {
   card(`
     <h1>Corruption Protocol</h1>
     <p class="big-text">You don’t choose what gets wired into you.<br>The system does.</p>
-    <p>Random fetish. Placement test. Six stages. Brutal adaptation.</p>
-    <p><strong>Images:</strong> ⚙ → paste Rule34 API Key → during a session hit <em>Grab image</em>.</p>
+    <p>Fetishes are tagged for Rule34 (tame → extreme). ⚙ → API key → Roll → <strong>Grab image</strong>.</p>
   `);
   const row = document.createElement("div");
   row.className = "btn-row";
@@ -391,7 +403,7 @@ function runPlacementTest(fetish) {
   const c = card(`
     <h2>Placement Test</h2>
     <div class="fetish-name">${fetish.name}</div>
-    <p>We need to know how much this already owns you.</p>
+    <p>Tags: <code>${fetishToTags(fetish)}</code> — use <strong>Grab image</strong>.</p>
   `);
   c.appendChild(createMediaArea(fetish));
 
@@ -671,7 +683,7 @@ document.getElementById("closeSettings").onclick = () => {
   settings.timerScale = parseFloat(document.getElementById("setTimerScale").value);
   settings.brutalMult = parseFloat(document.getElementById("setBrutal").value);
   settings.gainMult = parseFloat(document.getElementById("setGain").value);
-  settings.r34UserId = document.getElementById("r34UserId").value.trim();
+  settings.r34UserId = document.getElementById("r34UserId").value.trim() || "6721033";
   settings.r34ApiKey = document.getElementById("r34ApiKey").value.trim();
   save();
   document.getElementById("settingsOverlay").classList.add("hidden");
