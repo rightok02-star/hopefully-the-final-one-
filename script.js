@@ -71,7 +71,7 @@ const DEFAULT_FETISHES = [
     ]},
   { id: 6, name: "Lips and tongue out", short: "tongue out", search: "tongue_out",
     ironic: "Tongue on your lower lip for pure stares.",
-    pairing: "Mirror the open mouth. Stroke when the tongue ‘moves’ in your head.",
+    pairing: "Mirror the open mouth. Stroke when the tongue moves in your head.",
     edge: "Edge with mouth open. Drool allowed.",
     pure: "Tongue out. Hands dead.",
     degrade: ["Mouth learning to stay stupid on command.", "Spit is ritual now."],
@@ -178,7 +178,7 @@ const DEFAULT_FETISHES = [
       "Jiggle soft tissue on purpose on accents.",
       "Speak one sentence praising softness while staring.",
       "Press two folds together and hold.",
-      "Eat nothing special — just rest a hand on the softest part all phase.",
+      "Rest a hand on the softest part all phase.",
       "Mark a fold with a fingertip circle of spit."
     ]},
   { id: 14, name: "Stockings and pantyhose", short: "stockings", search: "stockings",
@@ -191,7 +191,7 @@ const DEFAULT_FETISHES = [
       "If you have socks/sheer, put them on now.",
       "Run hands up your calves as if smoothing hose.",
       "Point and flex feet 15 times while staring.",
-      "Rub lotion or spit on shins for ‘shine’.",
+      "Rub lotion or spit on shins for shine.",
       "Cross ankles tight and hold.",
       "Leave lower legs covered for contamination period."
     ]},
@@ -203,11 +203,11 @@ const DEFAULT_FETISHES = [
     degrade: ["Intelligence optional.", "Blank faces install fast."],
     body: [
       "Hold ahegao face 15 seconds: tongue, eyes rolled a bit.",
-      "Take a selfie pose without saving — just hold the face.",
+      "Hold the face without saving a photo.",
       "Drool on purpose once.",
-      "Say ‘uuuh’ on every BPM accent.",
+      "Say uuuh on every BPM accent.",
       "Slap your cheek lightly once to flush.",
-      "Full dumb face the entire pure stare — no breaking character."
+      "Full dumb face the entire pure stare."
     ]},
   { id: 16, name: "Breasts pressed and soft", short: "soft chest", search: "breasts",
     ironic: "Press arms into your chest on timer zeros.",
@@ -230,8 +230,8 @@ const DEFAULT_FETISHES = [
     pure: "Close distance. Sole fills frame.",
     degrade: ["Your place is under.", "Floor-level loyalty."],
     body: [
-      "Bring one bare sole near your face (not unclean extreme if unsafe).",
-      "Let the sole hover an inch from your nose while staring at screen.",
+      "Bring one bare sole near your face if safe.",
+      "Let the sole hover near your nose while staring at screen.",
       "Press sole lightly to cheek once.",
       "Kneel so your eye line is low relative to the monitor.",
       "Kiss your own sole once if you can reach.",
@@ -240,14 +240,14 @@ const DEFAULT_FETISHES = [
   { id: 18, name: "Used / worn look on clothes", short: "worn clothes", search: "panties",
     ironic: "Sniff worn laundry once before sleep.",
     pairing: "Hunt wrinkles. Stroke on detail finds.",
-    edge: "Edge to ‘already used.’",
+    edge: "Edge to already used.",
     pure: "Used look only.",
     degrade: ["Fresh losing status.", "Mess climbing rank."],
     body: [
       "Put on yesterday’s shirt if available.",
       "Sniff a worn cloth item once mid-phase.",
       "Wrinkle your clothes on purpose.",
-      "Leave a small intentional ‘mess’ mark with spit on fabric corner.",
+      "Leave a small spit mark on a fabric corner.",
       "Don’t change clothes after the session.",
       "Sleep in the same top tonight."
     ]},
@@ -272,22 +272,22 @@ const DEFAULT_FETISHES = [
     pure: "Shame heat. Hands off.",
     degrade: ["Risk seasons arousal.", "Hard while exposed in the mind."],
     body: [
-      "Open curtains a slit or face a door — private but ‘risk’ feel.",
+      "Open curtains a slit or face a door — private but risk feel.",
       "Keep one earbud out to hear the house.",
       "Sit closer to a window without exposing yourself.",
-      "Whisper ‘someone could see’ once.",
+      "Whisper someone could see once.",
       "Do ten strokes standing as if you might need to stop fast.",
-      "Pure stare near a threshold (doorway) if safe."
+      "Pure stare near a doorway if safe."
     ]},
   { id: 21, name: "Bondage marks and restraint", short: "restraint", search: "bondage",
     ironic: "Cross wrists behind you on pure stares.",
-    pairing: "Stroke only when BPM allows — restraint on you too.",
+    pairing: "Stroke only when BPM allows.",
     edge: "Pretend the hand needs permission.",
     pure: "Wrists crossed. Empty hands.",
     degrade: ["Stillness as obedience.", "Image holds you better than freedom."],
     body: [
       "Cross wrists in front and hold 20s.",
-      "Belt or soft tie loosely around wrists (safe, quick-release).",
+      "Belt or soft tie loosely around wrists (quick-release).",
       "Kneel on hands so they are pinned.",
       "Clench a belt in your teeth briefly.",
       "Ankle cross + wrist cross together.",
@@ -301,10 +301,10 @@ const DEFAULT_FETISHES = [
     degrade: ["Lower default height.", "Stare until told."],
     body: [
       "Kneel for 20 seconds while looking up at the screen.",
-      "Use a finger as a ‘collar’ at your throat.",
+      "Use a finger as a collar at your throat.",
       "Crawl three steps if space allows.",
       "Bowl or cup on floor — glance at it as a prop.",
-      "Say ‘good’ to yourself once after obeying a timer.",
+      "Say good to yourself once after obeying a timer.",
       "Kneel the entire pure stare."
     ]},
   { id: 23, name: "Mind-break expression", short: "mind break", search: "ahegao",
@@ -346,7 +346,7 @@ const DEFAULT_FETISHES = [
       "Let it drag as you stroke.",
       "Add a second wrap on the other arm for later stages.",
       "Pin both arms partially with the wraps.",
-      "Sit so you feel ‘stuck’ in the chair.",
+      "Sit so you feel stuck in the chair.",
       "Wrapped wrists + pure stare, no escape fidgeting."
     ]},
   { id: 26, name: "Inflation / overfull body", short: "inflation", search: "inflation",
@@ -374,7 +374,7 @@ const DEFAULT_FETISHES = [
       "Claw your own shoulder lightly with nails.",
       "Stare without blinking until eyes water.",
       "Admit the line out loud again mid-phase.",
-      "Turn lights lower for ‘other’ atmosphere.",
+      "Turn lights lower for other atmosphere.",
       "Pure stare whispering the short name like a summon."
     ]},
   { id: 28, name: "Extreme insertion art", short: "extreme insertion", search: "insertion",
@@ -382,11 +382,11 @@ const DEFAULT_FETISHES = [
     pairing: "Shallow/deep strokes follow BPM shifts.",
     edge: "No-limit idea at freeze.",
     pure: "Eyes only.",
-    degrade: ["Limits negotiable in fantasy.", "Shock → interest."],
+    degrade: ["Limits negotiable in fantasy.", "Shock to interest."],
     body: [
       "Keep free hand flat on the desk — pinned.",
       "Only allowed motion is BPM strokes when phase allows.",
-      "Press thighs together as ‘resistance.’",
+      "Press thighs together as resistance.",
       "Exhale fully on every edge freeze.",
       "Bite a cloth to stay quiet and focused.",
       "Pure stare with both hands palm-down, unmoving."
@@ -398,24 +398,24 @@ const DEFAULT_FETISHES = [
     pure: "Surrounded, hands off.",
     degrade: ["One partner feels sparse.", "Central and used."],
     body: [
-      "Place 3 objects around you as ‘people’ markers.",
+      "Place 3 objects around you as people markers.",
       "Turn to face each marker once.",
       "Stroke only while looking at the screen, not markers.",
-      "Whisper ‘all of you’ once.",
+      "Whisper all of you once.",
       "Kneel in the center of the markers.",
       "Pure stare spinning slowly once through the ring, then stop."
     ]},
   { id: 30, name: "Hypnosis swirl mindfuck", short: "hypnosis", search: "hypnosis",
     ironic: "If a thought appears, return to the spiral.",
     pairing: "Stroke only on BPM — rhythm is induction.",
-    edge: "Repeat ‘watch’ in your head.",
+    edge: "Repeat watch in your head.",
     pure: "Fall into the pattern.",
     degrade: ["Attention is the leash.", "Follow motion."],
     body: [
       "Sway torso slowly in a circle 10 times.",
       "Follow a finger circle in front of your eyes, then screen.",
       "Blink only on BPM accents for 20 seconds.",
-      "Whisper ‘deeper’ three times.",
+      "Whisper deeper three times.",
       "Phone face-down — no other input.",
       "Pure stare; any thought = add 10 seconds (honor system)."
     ]}
@@ -443,15 +443,14 @@ const BPM_PATTERNS = {
   pure: [{ bpm: 52, seconds: 999, hint: "Breath only — no stroking" }]
 };
 
-/* Stage recipes: escalate physical + fetish intensity */
 function stageRecipe(stage) {
   const map = {
-    1: { bodyIndex: 0, pairing: 50, edges: 1, pure: 25, label: "Introduction" },
-    2: { bodyIndex: 1, pairing: 60, edges: 1, pure: 40, label: "Imprint" },
-    3: { bodyIndex: 2, pairing: 70, edges: 1, pure: 55, label: "Stain" },
-    4: { bodyIndex: 3, pairing: 80, edges: 1, pure: 75, label: "Claim" },
-    5: { bodyIndex: 4, pairing: 90, edges: 1, pure: 100, label: "Deep wire" },
-    6: { bodyIndex: 5, pairing: 100, edges: 1, pure: 140, label: "Ownership" }
+    1: { bodyIndex: 0, pairing: 50, pure: 25, label: "Introduction" },
+    2: { bodyIndex: 1, pairing: 60, pure: 40, label: "Imprint" },
+    3: { bodyIndex: 2, pairing: 70, pure: 55, label: "Stain" },
+    4: { bodyIndex: 3, pairing: 80, pure: 75, label: "Claim" },
+    5: { bodyIndex: 4, pairing: 90, pure: 100, label: "Deep wire" },
+    6: { bodyIndex: 5, pairing: 100, pure: 140, label: "Ownership" }
   };
   return map[stage] || map[1];
 }
@@ -469,6 +468,8 @@ let settings = {
 let currentTimer = null, bpmTimer = null, bpmTickTimer = null, fluidInstance = null;
 const mediaMemory = { imageUrl: "", videoUrl: "", mode: "image" };
 let audioCtx = null, ambientNodes = null;
+
+function $(id) { return document.getElementById(id); }
 
 function ensureAudio() {
   if (!audioCtx) {
@@ -521,7 +522,7 @@ function metroClick(accent) {
   g.gain.exponentialRampToValueAtTime(0.0001, t + 0.05);
   osc.connect(g); g.connect(ctx.destination);
   osc.start(t); osc.stop(t + 0.06);
-  const el = document.getElementById("bpmValue");
+  const el = $("bpmValue");
   if (el) { el.classList.remove("bpm-pulse"); void el.offsetWidth; el.classList.add("bpm-pulse"); }
 }
 
@@ -538,7 +539,7 @@ function startAmbient() {
   g.gain.value = vol() * 0.035;
   osc1.connect(filter); osc2.connect(filter); filter.connect(g); g.connect(ctx.destination);
   osc1.start(); osc2.start();
-  ambientNodes = { osc1, osc2, g };
+  ambientNodes = { osc1, osc2 };
 }
 function stopAmbient() {
   if (!ambientNodes) return;
@@ -558,10 +559,8 @@ function startBpmPattern(key) {
   function runSegment() {
     if (idx >= pattern.length) idx = pattern.length - 1;
     const seg = pattern[idx];
-    const bpmEl = document.getElementById("bpmValue");
-    const hintEl = document.getElementById("bpmHint");
-    if (bpmEl) bpmEl.textContent = String(seg.bpm);
-    if (hintEl) hintEl.textContent = seg.hint || "";
+    if ($("bpmValue")) $("bpmValue").textContent = String(seg.bpm);
+    if ($("bpmHint")) $("bpmHint").textContent = seg.hint || "";
     if (bpmTickTimer) clearInterval(bpmTickTimer);
     beat = 0;
     const interval = 60000 / seg.bpm;
@@ -596,7 +595,6 @@ function load() {
   if (!settings.r34UserId) settings.r34UserId = "6721033";
   if (settings.volume > 1) settings.volume = settings.volume / 100;
   updateMeter();
-  applySettingsUI();
 }
 function save() {
   localStorage.setItem("corruptionProtocol", JSON.stringify(state));
@@ -607,16 +605,12 @@ function getAllFetishes() {
   return [...DEFAULT_FETISHES, ...(state.customFetishes || [])];
 }
 function updateMeter() {
-  const fill = document.getElementById("meterFill");
-  const percent = document.getElementById("meterPercent");
-  const label = document.getElementById("meterLabel");
-  const status = document.getElementById("statusLine");
-  if (!fill) return;
-  fill.style.width = (state.corruption || 0) + "%";
-  percent.textContent = (state.corruption || 0) + "%";
+  if (!$("meterFill")) return;
+  $("meterFill").style.width = (state.corruption || 0) + "%";
+  $("meterPercent").textContent = (state.corruption || 0) + "%";
   const lab = METER_LABELS.find(l => state.corruption <= l.max) || METER_LABELS[METER_LABELS.length - 1];
-  label.textContent = lab.text;
-  status.textContent = state.activeFetish
+  $("meterLabel").textContent = lab.text;
+  $("statusLine").textContent = state.activeFetish
     ? `Active: ${state.activeFetish.short} — Stage ${state.currentStage}/6${state.freeMode ? " (FREE)" : ""}`
     : "No active corruption track";
 }
@@ -637,15 +631,15 @@ function pickDegrade(fetish) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 function bodyTask(fetish, stage) {
-  const list = fetish.body || ["Hold still and stare while the protocol works."];
-  const idx = Math.min((stageRecipe(stage).bodyIndex), list.length - 1);
+  const list = fetish.body || ["Hold still and stare."];
+  const idx = Math.min(stageRecipe(stage).bodyIndex, list.length - 1);
   return list[idx];
 }
 
 async function grabRule34(fetish, wantVideo) {
   const userId = (settings.r34UserId || "").trim();
   const apiKey = (settings.r34ApiKey || "").trim();
-  if (!userId || !apiKey) throw new Error("Open ⚙ — enter Rule34 User ID + API Key.");
+  if (!userId || !apiKey) throw new Error("Open ⚙ — enter Rule34 User ID + API Key, then Save & Close.");
   const tags = fetishToTags(fetish);
   const tagQuery = wantVideo ? tags + " video" : tags;
   const pid = Math.floor(Math.random() * 20);
@@ -660,12 +654,12 @@ async function grabRule34(fetish, wantVideo) {
   try { data = JSON.parse(text); } catch (e) { throw new Error("Rule34 non-JSON — check API key."); }
   if (data && data.message) throw new Error(String(data.message));
   if (!Array.isArray(data) || !data.length) {
-    if (wantVideo) return grabRule34VideoFallback(tags, userId, apiKey);
+    if (wantVideo) return grabVideoFallback(tags, userId, apiKey);
     throw new Error("No results for tag: " + tags);
   }
   if (wantVideo) {
     const pool = data.map(p => p.file_url || p.sample_url).filter(u => u && /\.(mp4|webm)(\?|$)/i.test(u));
-    if (!pool.length) return grabRule34VideoFallback(tags, userId, apiKey);
+    if (!pool.length) return grabVideoFallback(tags, userId, apiKey);
     return pool[Math.floor(Math.random() * pool.length)];
   }
   const pool = data.map(p => p.sample_url || p.file_url || p.preview_url)
@@ -673,7 +667,7 @@ async function grabRule34(fetish, wantVideo) {
   if (!pool.length) throw new Error("No image URLs.");
   return pool[Math.floor(Math.random() * pool.length)];
 }
-async function grabRule34VideoFallback(tags, userId, apiKey) {
+async function grabVideoFallback(tags, userId, apiKey) {
   const pid = Math.floor(Math.random() * 15);
   const url =
     "https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&json=1&limit=50&pid=" + pid +
@@ -693,10 +687,12 @@ function createMediaArea(fetish) {
   wrap.className = "media-area";
   const tabs = document.createElement("div");
   tabs.className = "media-tabs";
-  const imgTab = document.createElement("button"); imgTab.type = "button"; imgTab.textContent = "Image";
-  const vidTab = document.createElement("button"); vidTab.type = "button"; vidTab.textContent = "Video";
+  const imgTab = document.createElement("button");
+  imgTab.type = "button"; imgTab.textContent = "Image";
+  const vidTab = document.createElement("button");
+  vidTab.type = "button"; vidTab.textContent = "Video";
   tabs.appendChild(imgTab); tabs.appendChild(vidTab);
-  const stage = document.createElement("div");
+  const stageEl = document.createElement("div");
   const controls = document.createElement("div");
   controls.className = "media-controls";
   const urlInput = document.createElement("input");
@@ -714,7 +710,7 @@ function createMediaArea(fetish) {
   status.className = "media-hint";
   status.textContent = (settings.r34ApiKey || "").trim()
     ? "Tag: " + fetishToTags(fetish)
-    : "⚙ → API key → Save.";
+    : "⚙ → API key → Save & Close.";
   controls.append(urlInput, row, status);
 
   function setMode(mode) {
@@ -727,20 +723,20 @@ function createMediaArea(fetish) {
   }
   function renderStage() {
     destroyFluid();
-    stage.innerHTML = "";
+    stageEl.innerHTML = "";
     if (mediaMemory.mode === "image" && mediaMemory.imageUrl) {
       const img = document.createElement("img");
       img.src = mediaMemory.imageUrl;
       img.alt = fetish.short || "";
       img.referrerPolicy = "no-referrer";
-      stage.appendChild(img);
+      stageEl.appendChild(img);
     } else if (mediaMemory.mode === "video" && mediaMemory.videoUrl) {
       const yt = youtubeId(mediaMemory.videoUrl);
       if (yt) {
         const iframe = document.createElement("iframe");
         iframe.src = "https://www.youtube.com/embed/" + yt + "?rel=0";
         iframe.allowFullscreen = true;
-        stage.appendChild(iframe);
+        stageEl.appendChild(iframe);
       } else {
         const holder = document.createElement("div");
         holder.className = "fluid-player-wrap";
@@ -753,7 +749,7 @@ function createMediaArea(fetish) {
         source.type = /\.webm/i.test(mediaMemory.videoUrl) ? "video/webm" : "video/mp4";
         video.appendChild(source);
         holder.appendChild(video);
-        stage.appendChild(holder);
+        stageEl.appendChild(holder);
         requestAnimationFrame(() => {
           if (typeof fluidPlayer === "function") {
             try {
@@ -812,7 +808,7 @@ function createMediaArea(fetish) {
   };
   imgTab.onclick = () => setMode("image");
   vidTab.onclick = () => setMode("video");
-  wrap.append(tabs, stage, controls);
+  wrap.append(tabs, stageEl, controls);
   setMode(mediaMemory.mode || "image");
   return wrap;
 }
@@ -824,7 +820,7 @@ function attachMedia(cardEl, fetish) {
   }
 }
 
-const screen = document.getElementById("screen");
+const screen = $("screen");
 function clearScreen() {
   if (currentTimer) { clearInterval(currentTimer); currentTimer = null; }
   stopBpm(); destroyFluid();
@@ -837,7 +833,7 @@ function card(html) {
   screen.appendChild(div);
   return div;
 }
-function btn(text, onClick, secondary = false) {
+function btn(text, onClick, secondary) {
   const b = document.createElement("button");
   b.type = "button";
   b.textContent = text;
@@ -862,14 +858,11 @@ function showWelcome() {
   card(`
     <h1>Corruption Protocol</h1>
     <p class="big-text">You don’t choose what gets wired into you.<br>The system does — unless you take Free Mode.</p>
-    <p>Each stage = fetish-specific <strong>physical task</strong> → BPM pairing → one edge → pure stare.</p>
+    <p>Each stage: physical task → BPM pairing → one edge → twist → pure stare.</p>
   `);
   const row = document.createElement("div");
   row.className = "btn-row";
-  row.appendChild(btn("Begin / Roll Random Fetish", () => {
-    state.freeMode = false;
-    rollNewFetish();
-  }));
+  row.appendChild(btn("Begin / Roll Random Fetish", () => { state.freeMode = false; rollNewFetish(); }));
   row.appendChild(btn("Free Mode — pick fetish → Stage 6", showFreeMode, true));
   screen.appendChild(row);
 }
@@ -878,8 +871,7 @@ function showFreeMode() {
   clearScreen();
   const c = card(`
     <h2>Free Mode</h2>
-    <p>Skip placement. Jump straight to <strong>Stage 6</strong> on a fetish you choose.</p>
-    <p class="warning">Still does the full Stage 6 ritual (physical + pairing + edge + long pure).</p>
+    <p>Skip placement. Jump to <strong>Stage 6</strong> on a fetish you choose.</p>
   `);
   const select = document.createElement("select");
   select.style.cssText = "width:100%;padding:12px;margin:12px 0;background:#2a1f22;color:#f5e6e8;border:1px solid #3a2a2e;border-radius:8px;font-size:15px;";
@@ -893,8 +885,7 @@ function showFreeMode() {
   const row = document.createElement("div");
   row.className = "btn-row";
   row.appendChild(btn("Start Stage 6 now", () => {
-    const id = select.value;
-    const fetish = getAllFetishes().find(f => String(f.id) === id);
+    const fetish = getAllFetishes().find(f => String(f.id) === select.value);
     if (!fetish) return;
     state.activeFetish = fetish;
     state.currentStage = 6;
@@ -922,29 +913,21 @@ function showContinueOrNew() {
   row.appendChild(btn(`Continue Stage ${state.currentStage}`, () => startSession(state.currentStage)));
   row.appendChild(btn("Abandon & Roll New", () => {
     if (confirm("Abandon?")) {
-      state.activeFetish = null;
-      state.currentStage = 1;
-      state.fails = 0;
-      state.freeMode = false;
-      save();
-      rollNewFetish();
+      state.activeFetish = null; state.currentStage = 1; state.fails = 0; state.freeMode = false;
+      save(); rollNewFetish();
     }
   }, true));
-  row.appendChild(btn("Home", () => { showWelcome(); }, true));
+  row.appendChild(btn("Home", showWelcome, true));
   screen.appendChild(row);
 }
 
 function rollNewFetish() {
   const list = getAllFetishes();
-  const pick = list[Math.floor(Math.random() * list.length)];
-  state.activeFetish = pick;
-  state.currentStage = 1;
-  state.fails = 0;
-  state.freeMode = false;
-  mediaMemory.imageUrl = "";
-  mediaMemory.videoUrl = "";
+  state.activeFetish = list[Math.floor(Math.random() * list.length)];
+  state.currentStage = 1; state.fails = 0; state.freeMode = false;
+  mediaMemory.imageUrl = ""; mediaMemory.videoUrl = "";
   save();
-  runPlacementTest(pick);
+  runPlacementTest(state.activeFetish);
 }
 
 function runPlacementTest(fetish) {
@@ -962,48 +945,33 @@ function runPlacementTest(fetish) {
     step++;
     if (step === 1) {
       clearScreen();
-      const el = card(`
-        <h2>Test 1 / 3</h2>
-        <p class="big-text">Look ${scaleTime(20)}s. No touching.</p>
-        <p class="instruction">${fetish.pure}</p>
-        <div class="timer" id="t">${scaleTime(20)}</div>
-      `);
+      const el = card(`<h2>Test 1 / 3</h2><p class="big-text">Look ${scaleTime(20)}s. No touching.</p>
+        <p class="instruction">${fetish.pure}</p><div class="timer" id="t">${scaleTime(20)}</div>`);
       attachMedia(el, fetish);
       countdown(scaleTime(20), () => askRating("Response 0–10?"));
     } else if (step === 2) {
       clearScreen();
-      const el = card(`
-        <h2>Test 2 / 3</h2>
-        <p class="big-text">Look ${scaleTime(40)}s.</p>
-        <p class="instruction">${fetish.ironic}</p>
-        <p class="instruction">${bodyTask(fetish, 2)}</p>
-        <div class="timer" id="t">${scaleTime(40)}</div>
-      `);
+      const el = card(`<h2>Test 2 / 3</h2><p class="big-text">Look ${scaleTime(40)}s.</p>
+        <p class="instruction">${fetish.ironic}</p><p class="instruction">${bodyTask(fetish, 2)}</p>
+        <div class="timer" id="t">${scaleTime(40)}</div>`);
       attachMedia(el, fetish);
       countdown(scaleTime(40), () => askRating("Response?"));
     } else if (step === 3) {
       clearScreen();
-      const el = card(`
-        <h2>Final Placement</h2>
-        <p class="big-text">${scaleTime(60)}s pure.</p>
-        <p class="instruction">${fetish.pure}</p>
-        <div class="timer" id="t">${scaleTime(60)}</div>
-      `);
+      const el = card(`<h2>Final Placement</h2><p class="big-text">${scaleTime(60)}s pure.</p>
+        <p class="instruction">${fetish.pure}</p><div class="timer" id="t">${scaleTime(60)}</div>`);
       attachMedia(el, fetish);
       countdown(scaleTime(60), () => askRating("Final?"));
     } else {
       const avg = ratings.reduce((a, b) => a + b, 0) / ratings.length;
-      let stage = 1;
-      if (avg >= 8) stage = 4;
-      else if (avg >= 6) stage = 3;
-      else if (avg >= 4) stage = 2;
-      state.currentStage = stage;
-      save();
+      let st = 1;
+      if (avg >= 8) st = 4; else if (avg >= 6) st = 3; else if (avg >= 4) st = 2;
+      state.currentStage = st; save();
       clearScreen();
-      card(`<h2>Placed at Stage ${stage}</h2><p>Average ${avg.toFixed(1)}</p>`);
+      card(`<h2>Placed at Stage ${st}</h2><p>Average ${avg.toFixed(1)}</p>`);
       const row = document.createElement("div");
       row.className = "btn-row";
-      row.appendChild(btn(`Start Stage ${stage}`, () => startSession(stage)));
+      row.appendChild(btn(`Start Stage ${st}`, () => startSession(st)));
       row.appendChild(btn("Re-roll", () => { state.activeFetish = null; save(); rollNewFetish(); }, true));
       screen.appendChild(row);
     }
@@ -1027,31 +995,29 @@ function runPlacementTest(fetish) {
 function startSession(stage) {
   const fetish = state.activeFetish;
   const recipe = stageRecipe(stage);
-  const brutalMod = Math.min(state.fails * 8 * (settings.brutalMult || 1), 40);
   clearScreen();
   const c = card(`
     <div class="stage-badge">Stage ${stage} / 6 — ${recipe.label}${state.freeMode ? " · FREE" : ""}</div>
     <div class="fetish-name">${fetish.name}</div>
     <p class="instruction">${fetish.ironic}</p>
-    <p><strong>Tonight’s physical demand:</strong></p>
+    <p><strong>Physical demand:</strong></p>
     <p class="instruction">${bodyTask(fetish, stage)}</p>
-    <p class="warning">Do the physical task during the next phases. Honesty is the only enforcement.</p>
   `);
   attachMedia(c, fetish);
   const row = document.createElement("div");
   row.className = "btn-row";
-  row.appendChild(btn("I’ve started the physical task — begin", () => runStage(stage, brutalMod)));
+  row.appendChild(btn("I’ve started the physical task — begin", () => runStage(stage)));
   screen.appendChild(row);
 }
 
-function runStage(stage, brutalMod) {
+function runStage(stage) {
   const fetish = state.activeFetish;
   const recipe = stageRecipe(stage);
+  const brutalMod = Math.min(state.fails * 8 * (settings.brutalMult || 1), 40);
   const pairTime = scaleTime(recipe.pairing);
   const pureBase = scaleTime(recipe.pure + brutalMod);
   const physical = bodyTask(fetish, stage);
 
-  // Phase A — Physical task focus
   clearScreen();
   const ca = card(`
     <h2>Phase A — Physical</h2>
@@ -1086,7 +1052,6 @@ function runStage(stage, brutalMod) {
       <p class="big-text">One edge only. Make it count.</p>
       <p class="instruction">${fetish.edge}</p>
       <p class="instruction">${physical}</p>
-      <p>${pickDegrade(fetish)}</p>
     `);
     attachMedia(ce, fetish);
     const row = document.createElement("div");
@@ -1106,22 +1071,20 @@ function runStage(stage, brutalMod) {
     screen.appendChild(row);
   }
 
-  // Extra creative beat before pure — changes by stage
   function phaseTwist() {
     stopBpm();
     const twists = [
-      `Whisper the fetish name (“${fetish.short}”) six times while staring.`,
-      `Hold your breath for 8 seconds, eyes locked, then gasp and keep staring.`,
-      `Do the physical task one more intensified time: ${physical}`,
-      `Put both hands on your head (surrender pose) for 20 seconds — no cock.`,
-      `Describe out loud one detail of the image that hurts your pride.`,
-      `Final ownership pose: ${physical} — hold it into the pure stare.`
+      `Whisper “${fetish.short}” six times while staring.`,
+      `Hold your breath 8 seconds, eyes locked, then gasp and keep staring.`,
+      `Intensify the physical task once more: ${physical}`,
+      `Both hands on your head (surrender) 20 seconds — no cock.`,
+      `Out loud: one detail of the image that hurts your pride.`,
+      `Ownership pose: ${physical} — hold it into pure stare.`
     ];
     const twist = twists[Math.min(stage - 1, twists.length - 1)];
     clearScreen();
     const ct = card(`
       <h2>Phase D — Twist</h2>
-      <p class="big-text">Stage ${stage} demand</p>
       <p class="instruction">${twist}</p>
       <div class="timer" id="t">${scaleTime(20 + stage * 3)}</div>
     `);
@@ -1133,7 +1096,7 @@ function runStage(stage, brutalMod) {
     clearScreen();
     const cu = card(`
       <h2>Phase E — Pure Trigger</h2>
-      <p class="big-text">Hands off. ${pureBase}s. Physical residue stays if possible.</p>
+      <p class="big-text">Hands off. ${pureBase}s.</p>
       <p class="instruction">${fetish.pure}</p>
       <p class="instruction">${physical}</p>
       ${bpmHtml()}
@@ -1161,8 +1124,7 @@ function runStage(stage, brutalMod) {
 
 function finishStage(rating, stage) {
   state.lastRating = rating;
-  const passed = rating >= 7;
-  if (passed) {
+  if (rating >= 7) {
     sfxPass();
     const gain = Math.round((3 + stage) * (settings.gainMult || 1));
     state.corruption = Math.min(100, state.corruption + gain);
@@ -1178,18 +1140,16 @@ function finishStage(rating, stage) {
     }
     save();
     clearScreen();
-    card(`
-      <h2 style="color:var(--success)">Stage Passed</h2>
+    card(`<h2 style="color:var(--success)">Stage Passed</h2>
       <p class="big-text">${rating}/10 · +${gain} corruption</p>
-      ${stage === 6 ? "<p>Track complete.</p>" : `<p>Next: Stage ${stage + 1} (harder body demand).</p>`}
-    `);
+      ${stage === 6 ? "<p>Track complete.</p>" : `<p>Next: Stage ${stage + 1}</p>`}`);
     giveContamination(stage, true);
   } else {
     sfxFail();
     state.fails++;
     save();
     clearScreen();
-    card(`<h2 style="color:var(--danger)">Failed</h2><p class="big-text">${rating}/10</p><p>Physical + pure will be harsher next time.</p>`);
+    card(`<h2 style="color:var(--danger)">Failed</h2><p class="big-text">${rating}/10</p>`);
     giveContamination(stage, false);
   }
 }
@@ -1200,18 +1160,11 @@ function giveContamination(stage, success) {
     fetish.ironic,
     bodyTask(fetish, Math.min(stage + 1, 6)),
     `Before sleep: 60s stare at ${fetish.short}.`,
-    success
-      ? `Carry one residue of the physical task into the next hour.`
-      : `Repeat today’s physical task once more before bed.`,
+    success ? `Carry one residue of the physical task into the next hour.` : `Repeat today’s physical task once before bed.`,
     pickDegrade(fetish)
   ];
   const chosen = rules.sort(() => Math.random() - 0.5).slice(0, 2 + Math.floor(stage / 2));
-  card(`
-    <h2>Contamination Orders</h2>
-    <ul style="padding-left:20px;margin:12px 0">
-      ${chosen.map(r => `<li style="margin-bottom:8px">${r}</li>`).join("")}
-    </ul>
-  `);
+  card(`<h2>Contamination Orders</h2><ul style="padding-left:20px;margin:12px 0">${chosen.map(r => `<li style="margin-bottom:8px">${r}</li>`).join("")}</ul>`);
   const row = document.createElement("div");
   row.className = "btn-row";
   row.appendChild(btn("I accept", () => {
@@ -1223,7 +1176,7 @@ function giveContamination(stage, success) {
 }
 
 function countdown(seconds, cb) {
-  const el = document.getElementById("t");
+  const el = $("t");
   if (!el) { cb(); return; }
   let left = seconds;
   el.textContent = left;
@@ -1242,61 +1195,57 @@ function countdown(seconds, cb) {
 }
 
 function applySettingsUI() {
-  const el = id => document.getElementById(id);
-  if (el("setMedia")) el("setMedia").checked = settings.showMedia !== false;
-  if (el("setSfx")) el("setSfx").checked = settings.sfx !== false;
-  if (el("setAmbient")) el("setAmbient").checked = settings.ambient !== false;
-  if (el("setMetronome")) el("setMetronome").checked = settings.metronome !== false;
-  if (el("setVolume")) el("setVolume").value = String(Math.round((settings.volume ?? 0.35) * 100));
-  if (el("setTimerScale")) el("setTimerScale").value = String(settings.timerScale || 1);
-  if (el("setBrutal")) el("setBrutal").value = String(settings.brutalMult || 1);
-  if (el("setGain")) el("setGain").value = String(settings.gainMult || 1);
-  if (el("r34UserId")) el("r34UserId").value = settings.r34UserId || "6721033";
-  if (el("r34ApiKey")) el("r34ApiKey").value = settings.r34ApiKey || "";
+  if ($("setMedia")) $("setMedia").checked = settings.showMedia !== false;
+  if ($("setSfx")) $("setSfx").checked = settings.sfx !== false;
+  if ($("setAmbient")) $("setAmbient").checked = settings.ambient !== false;
+  if ($("setMetronome")) $("setMetronome").checked = settings.metronome !== false;
+  if ($("setVolume")) $("setVolume").value = String(Math.round((settings.volume ?? 0.35) * 100));
+  if ($("setTimerScale")) $("setTimerScale").value = String(settings.timerScale || 1);
+  if ($("setBrutal")) $("setBrutal").value = String(settings.brutalMult || 1);
+  if ($("setGain")) $("setGain").value = String(settings.gainMult || 1);
+  if ($("r34UserId")) $("r34UserId").value = settings.r34UserId || "6721033";
+  if ($("r34ApiKey")) $("r34ApiKey").value = settings.r34ApiKey || "";
 }
 
-document.getElementById("settingsBtn").onclick = () => {
-  document.getElementById("settingsOverlay").classList.remove("hidden");
+$("settingsBtn").onclick = () => {
+  $("settingsOverlay").classList.remove("hidden");
   applySettingsUI();
 };
-document.getElementById("closeSettings").onclick = () => {
-  settings.showMedia = document.getElementById("setMedia").checked;
-  settings.sfx = document.getElementById("setSfx").checked;
-  settings.ambient = document.getElementById("setAmbient").checked;
-  settings.metronome = document.getElementById("setMetronome").checked;
-  settings.volume = parseInt(document.getElementById("setVolume").value, 10) / 100;
-  settings.timerScale = parseFloat(document.getElementById("setTimerScale").value);
-  settings.brutalMult = parseFloat(document.getElementById("setBrutal").value);
-  settings.gainMult = parseFloat(document.getElementById("setGain").value);
-  settings.r34UserId = document.getElementById("r34UserId").value.trim() || "6721033";
-  settings.r34ApiKey = document.getElementById("r34ApiKey").value.trim();
+$("closeSettings").onclick = () => {
+  if ($("setMedia")) settings.showMedia = $("setMedia").checked;
+  if ($("setSfx")) settings.sfx = $("setSfx").checked;
+  if ($("setAmbient")) settings.ambient = $("setAmbient").checked;
+  if ($("setMetronome")) settings.metronome = $("setMetronome").checked;
+  if ($("setVolume")) settings.volume = parseInt($("setVolume").value, 10) / 100;
+  if ($("setTimerScale")) settings.timerScale = parseFloat($("setTimerScale").value);
+  if ($("setBrutal")) settings.brutalMult = parseFloat($("setBrutal").value);
+  if ($("setGain")) settings.gainMult = parseFloat($("setGain").value);
+  if ($("r34UserId")) settings.r34UserId = $("r34UserId").value.trim() || "6721033";
+  if ($("r34ApiKey")) settings.r34ApiKey = $("r34ApiKey").value.trim();
   save();
   if (!settings.ambient) stopAmbient();
   if (!settings.metronome) stopBpm();
-  document.getElementById("settingsOverlay").classList.add("hidden");
+  $("settingsOverlay").classList.add("hidden");
   ensureAudio();
   sfxTick();
 };
-document.getElementById("addCustomBtn").onclick = () => {
-  const name = document.getElementById("customName").value.trim();
-  const short = document.getElementById("customShort").value.trim();
-  const ironic = document.getElementById("customIronic").value.trim() || "Focus on it.";
-  const search = (document.getElementById("customSearch").value.trim() || short).split(/\s+/)[0];
+$("addCustomBtn").onclick = () => {
+  const name = $("customName").value.trim();
+  const short = $("customShort").value.trim();
+  const ironic = $("customIronic").value.trim() || "Focus on it.";
+  const search = ($("customSearch").value.trim() || short).split(/\s+/)[0];
   if (!name || !short) return alert("Name and short required");
   state.customFetishes = state.customFetishes || [];
   state.customFetishes.push({
     id: Date.now(), name, short, ironic, search,
-    pairing: ironic, edge: ironic, pure: ironic,
-    degrade: [ironic],
+    pairing: ironic, edge: ironic, pure: ironic, degrade: [ironic],
     body: [ironic, ironic, ironic, ironic, ironic, ironic]
   });
   save();
-  ["customName", "customShort", "customIronic", "customSearch"].forEach(id => {
-    document.getElementById(id).value = "";
-  });
+  ["customName", "customShort", "customIronic", "customSearch"].forEach(id => { $(id).value = ""; });
   alert("Added.");
 };
-document.getElementById("resetBtn").onclick = () => {
+$("resetBtn").onclick = () => {
   if (confirm("Erase progress?")) {
     localStorage.removeItem("corruptionProtocol");
     state = { corruption: 0, activeFetish: null, currentStage: 1, fails: 0, lastRating: 0, customFetishes: [], freeMode: false };
