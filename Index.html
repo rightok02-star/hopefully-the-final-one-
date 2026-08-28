@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Corruption Protocol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="meter-wrap">
+        <div class="meter-label" id="meterLabel">Still clean…</div>
+        <div class="meter-bar"><div class="meter-fill" id="meterFill"></div></div>
+        <div class="meter-percent" id="meterPercent">0%</div>
+      </div>
+      <div class="status" id="statusLine">No active corruption track</div>
+      <button id="settingsBtn" class="icon-btn" title="Settings" type="button">⚙</button>
+    </header>
+
+    <main id="screen"></main>
+
+    <footer>
+      <button id="resetBtn" class="danger-btn" type="button">Wipe All Progress (no mercy)</button>
+    </footer>
+  </div>
+
+  <div id="settingsOverlay" class="overlay hidden">
+    <div class="settings-panel">
+      <h2>Settings</h2>
+      <label class="setting-row"><span>Show media panel</span><input type="checkbox" id="setMedia" checked></label>
+      <label class="setting-row">
+        <span>Timer scale</span>
+        <select id="setTimerScale">
+          <option value="0.5">0.5×</option>
+          <option value="0.75">0.75×</option>
+          <option value="1" selected>1×</option>
+          <option value="1.25">1.25×</option>
+          <option value="1.5">1.5×</option>
+          <option value="2">2×</option>
+        </select>
+      </label>
+      <label class="setting-row">
+        <span>Brutal strength</span>
+        <select id="setBrutal">
+          <option value="0.5">Mild</option>
+          <option value="1" selected>Normal</option>
+          <option value="1.5">Harsh</option>
+          <option value="2">Merciless</option>
+        </select>
+      </label>
+      <label class="setting-row">
+        <span>Corruption gain</span>
+        <select id="setGain">
+          <option value="0.7">Slow</option>
+          <option value="1" selected>Normal</option>
+          <option value="1.4">Fast</option>
+        </select>
+      </label>
+
+      <hr>
+      <h3>Add Custom Fetish</h3>
+      <input type="text" id="customName" placeholder="Full name">
+      <input type="text" id="customShort" placeholder="Short name">
+      <input type="text" id="customIronic" placeholder="Ironic instruction">
+      <input type="text" id="customSearch" placeholder="Search terms for image/video finders">
+      <button id="addCustomBtn" type="button">Add Fetish</button>
+      <p class="hint">Customs are saved in this browser and can be rolled.</p>
+      <button id="closeSettings" class="secondary" type="button">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
