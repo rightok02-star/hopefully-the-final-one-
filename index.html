@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Corruption Protocol</title>
+  <title>Corruption Protocol — JOI</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
 </head>
@@ -15,9 +15,9 @@
         <div class="meter-bar"><div class="meter-fill" id="meterFill"></div></div>
         <div class="meter-percent" id="meterPercent">0%</div>
       </div>
-      <div class="status" id="statusLine">No active corruption track</div>
+      <div class="status" id="statusLine">JOI idle</div>
       <div class="header-actions">
-        <button id="focusBtn" class="icon-btn" type="button" title="Focus mode">▣</button>
+        <button id="focusBtn" class="icon-btn" type="button" title="Focus">▣</button>
         <button id="settingsBtn" class="icon-btn" type="button" title="Settings">⚙</button>
       </div>
     </header>
@@ -28,59 +28,49 @@
     <main id="screen"></main>
 
     <footer>
-      <button id="resetBtn" class="danger-btn" type="button">Wipe Active Slot Progress</button>
+      <button id="resetBtn" class="danger-btn" type="button">Wipe Active Slot</button>
     </footer>
   </div>
 
   <div id="settingsOverlay" class="overlay hidden">
     <div class="settings-panel">
       <h2>Settings</h2>
-
-      <h3>Display & sound</h3>
-      <label class="setting-row"><span>Show media panel</span><input type="checkbox" id="setMedia" checked></label>
-      <label class="setting-row"><span>Sound effects</span><input type="checkbox" id="setSfx" checked></label>
-      <label class="setting-row"><span>Ambient drone</span><input type="checkbox" id="setAmbient" checked></label>
-      <label class="setting-row"><span>Stroke metronome</span><input type="checkbox" id="setMetronome" checked></label>
+      <h3>JOI & voice</h3>
+      <label class="setting-row">
+        <span>Persona</span>
+        <select id="setPersona"></select>
+      </label>
+      <label class="setting-row"><span>TTS narration</span><input type="checkbox" id="setTts" checked></label>
+      <label class="setting-row"><span>Metronome</span><input type="checkbox" id="setMetronome" checked></label>
       <label class="setting-row"><span>Silence trials</span><input type="checkbox" id="setSilence" checked></label>
-      <label class="setting-row"><span>Speak instructions (TTS)</span><input type="checkbox" id="setTts"></label>
-      <label class="setting-row"><span>Blur image until pure</span><input type="checkbox" id="setBlur"></label>
-      <label class="setting-row"><span>Slideshow on pure</span><input type="checkbox" id="setSlideshow"></label>
+      <label class="setting-row"><span>Sound effects</span><input type="checkbox" id="setSfx" checked></label>
+      <label class="setting-row"><span>Ambient</span><input type="checkbox" id="setAmbient"></label>
+      <label class="setting-row"><span>Show media</span><input type="checkbox" id="setMedia" checked></label>
+      <label class="setting-row"><span>Blur until climax phases</span><input type="checkbox" id="setBlur"></label>
       <label class="setting-row">
         <span>Volume</span>
-        <input type="range" id="setVolume" min="0" max="100" value="35">
+        <input type="range" id="setVolume" min="0" max="100" value="45">
       </label>
       <label class="setting-row">
         <span>Timer scale</span>
         <select id="setTimerScale">
-          <option value="0.5">0.5×</option>
           <option value="0.75">0.75×</option>
           <option value="1" selected>1×</option>
           <option value="1.25">1.25×</option>
           <option value="1.5">1.5×</option>
-          <option value="2">2×</option>
         </select>
       </label>
       <label class="setting-row">
-        <span>Brutal strength</span>
-        <select id="setBrutal">
-          <option value="0.5">Mild</option>
+        <span>Intensity</span>
+        <select id="setIntensity">
+          <option value="0.85">Soft</option>
           <option value="1" selected>Normal</option>
-          <option value="1.5">Harsh</option>
-          <option value="2">Merciless</option>
-        </select>
-      </label>
-      <label class="setting-row">
-        <span>Corruption gain</span>
-        <select id="setGain">
-          <option value="0.7">Slow</option>
-          <option value="1" selected>Normal</option>
-          <option value="1.4">Fast</option>
+          <option value="1.2">Harsh</option>
         </select>
       </label>
 
       <hr>
       <h3>Save slots</h3>
-      <p class="hint">Three independent profiles in this browser.</p>
       <label class="setting-row">
         <span>Active slot</span>
         <select id="setSlot">
@@ -90,30 +80,27 @@
         </select>
       </label>
       <div class="btn-row tight">
-        <button type="button" id="exportBtn" class="secondary">Export JSON</button>
-        <button type="button" id="importBtn" class="secondary">Import JSON</button>
+        <button type="button" id="exportBtn" class="secondary">Export</button>
+        <button type="button" id="importBtn" class="secondary">Import</button>
       </div>
       <input type="file" id="importFile" accept="application/json,.json" hidden>
 
       <hr>
-      <h3>Rule34 API</h3>
-      <p class="hint">Account → Options. Never commit the key to GitHub.</p>
-      <input type="text" id="r34UserId" placeholder="Rule34 User ID" autocomplete="off">
-      <input type="password" id="r34ApiKey" placeholder="Rule34 API Key" autocomplete="off">
+      <h3>Rule34</h3>
+      <input type="text" id="r34UserId" placeholder="User ID" autocomplete="off">
+      <input type="password" id="r34ApiKey" placeholder="API Key" autocomplete="off">
 
       <hr>
-      <h3>Add custom fetish</h3>
-      <input type="text" id="customName" placeholder="Full name">
-      <input type="text" id="customShort" placeholder="Short name">
-      <input type="text" id="customIronic" placeholder="Ironic instruction">
-      <input type="text" id="customSearch" placeholder="ONE Rule34 tag">
-      <button type="button" id="addCustomBtn">Add fetish</button>
-
-      <hr>
-      <h3>URL playlist (local “folder”)</h3>
-      <p class="hint">Paste image/video URLs, one per line. Used when you hit Play playlist.</p>
-      <textarea id="playlistArea" rows="4" placeholder="https://…&#10;https://…"></textarea>
+      <h3>Playlist (one URL per line)</h3>
+      <textarea id="playlistArea" rows="3" placeholder="https://..."></textarea>
       <button type="button" id="savePlaylistBtn" class="secondary">Save playlist</button>
+
+      <hr>
+      <h3>Custom fetish</h3>
+      <input type="text" id="customName" placeholder="Name">
+      <input type="text" id="customShort" placeholder="Short">
+      <input type="text" id="customSearch" placeholder="ONE r34 tag">
+      <button type="button" id="addCustomBtn">Add</button>
 
       <button type="button" id="closeSettings" class="secondary">Save &amp; Close</button>
     </div>
